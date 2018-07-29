@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="com.google.jhongcarlos.com.androidquiz.EasyActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/easy"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="13dp"
+            android:layout_marginLeft="30dp"
+            android:padding="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/easy1">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. It is a push button that generates an event when pressed."
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/choices"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="41dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#fff"
+                    android:buttonTint="#fff"
+                    android:text="Checkbox" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Radio Button"
+                    android:buttonTint="#fff"
+                    android:textColor="#fff"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="#fff"
+                    android:textColor="#fff"
+                    android:text="Button" />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:textColor="#fff"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#fff"
+                    android:layout_weight="1"
+                    android:text="Toggle Button" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textColor="#fff"
+                android:background="@color/colorAccent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Question 4 out of 5"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

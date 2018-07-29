@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8ca63a</color>
+    <color name="colorPrimaryDark">#8ba539</color>
+    <color name="colorAccent">#a5c63a</color>
+    <color name="transparentbg">#83ffffff</color>
+    <color name="easy">#8c2ecc71</color>
+    <color name="medium">#8cf1c40f</color>
+    <color name="hard">#8ce74c3c</color>
+    <color name="easy1">#c82ecc71</color>
+    <color name="medium2">#c8f1c40f</color>
+    <color name="hard2">#c9e74c3c</color>
+    <color name="result">#c834495e</color>
+</resources>
